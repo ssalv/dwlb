@@ -25,31 +25,31 @@ static bool active_color_title = true;
 // scale
 static uint32_t buffer_scale = 2;
 // font
-static char *fontstr = "BlexMono Nerd Font:size=12:style=Bold";
+static char *fontstr = "Iosevka Etoile:size=13";
 static char *tags_names[] = { "1", "2", "3", "4", "5", "6" };
 
 // Moonfly Colorscheme (Vim)
 // moonflyFg:      #b2b2b2
-// moonflyBg:      #080808
-// moonflyBlue:    #80a0ff
+// moonflyBg:      #171717
+// moonflyBlue:    #606060
 // moonflyAqua:    #36c692
-// moonflyRed:     #ff5454
+// moonflyRed:     #b21818
 // moonflyYellow:  #e3c78a
 // moonflyMagenta: #cf87e8
 // moonflyOrange:  #e09876
 // moonflyGray:    #444444
 
 static pixman_color_t active_fg_color = HEX_COLOR(0xb2b2b2ff);      // moonflyFg
-static pixman_color_t active_bg_color = HEX_COLOR(0x080808ff);      // moonflyBg
+static pixman_color_t active_bg_color = HEX_COLOR(0x171717ff);      // moonflyBg
 
-static pixman_color_t occupied_fg_color = HEX_COLOR(0x80a0ffff);    // moonflyBlue
-static pixman_color_t occupied_bg_color = HEX_COLOR(0x080808ff);    // moonflyBg
+static pixman_color_t occupied_fg_color = HEX_COLOR(0x606060ff);    // moonflyBlue
+static pixman_color_t occupied_bg_color = HEX_COLOR(0x171717ff);    // moonflyBg
 
 static pixman_color_t inactive_fg_color = HEX_COLOR(0x444444ff);    // moonflyGray
-static pixman_color_t inactive_bg_color = HEX_COLOR(0x080808ff);    // moonflyBg
+static pixman_color_t inactive_bg_color = HEX_COLOR(0x171717ff);    // moonflyBg
 
-static pixman_color_t urgent_fg_color = HEX_COLOR(0xff5454ff);      // moonflyRed
+static pixman_color_t urgent_fg_color = HEX_COLOR(0xb21818ff);      // moonflyRed
 static pixman_color_t urgent_bg_color = HEX_COLOR(0xcf87e8ff);      // moonflyMagenta
 
-static pixman_color_t middle_bg_color = HEX_COLOR(0x080808ff);      // moonflyBg
-static pixman_color_t middle_bg_color_selected = HEX_COLOR(0x000000ff); // moonflyGray
+static pixman_color_t middle_bg_color = HEX_COLOR(0x171717ff);      // moonflyBg
+static pixman_color_t middle_bg_color_selected = HEX_COLOR(0x171717ff); // moonflyGray
